@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lernantino</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="navbar-brand">Lernantino</div>
+      <div class="navbar-links flex space-x-4">
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#resume">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Image with Subtitle -->
+  <div class="relative">
+    <!-- Replace with your header image URL -->
+    <img src="assets/portfolioHWImages/download.jpeg" alt="Header Image" class="header-image">
+    <div class="absolute inset-0 flex justify-center items-center">
+      <span class="subtitle">Portfolio</span>
+    </div>
+  </div>
+
+  <!-- About Me Section -->
+  <section id="about" class="container mx-auto py-12">
+    <div class="flex">
+      <div class="w-1/4">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="w-3/4 section-content space-y-4">
+        <p>Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester.</p>
+        <p>Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level fap ugh.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="bg-gray-100 py-12 .bg-current">
+    <div class="container mx-auto">
+      <h2 class="section-title mb-8">Work</h2>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="col-span-2 row-span-2 work-card">
+          <!-- Replace with your Surf Report image URL -->
+          <img src="assets/portfolioHWImages/Surfreport.jpg" alt="Surf Report">
+          <div class="p-4">
+            <h3 class="work-card-title">Surf Report</h3>
+            <p class="work-card-desc">MERN Stack</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <!-- Replace with your LED Wall image URL -->
+          <img src="assets/portfolioHWImages/LEDwall2.jpeg" alt="LED Wall">
+          <div class="p-4">
+            <h3 class="work-card-title">LED Wall</h3>
+            <p class="work-card-desc">Node/IoT</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <!-- Replace with your Calculator image URL -->
+          <img src="assets/portfolioHWImages/calculator.jpeg" alt="Calculator">
+          <div class="p-4">
+            <h3 class="work-card-title">Calculator</h3>
+            <p class="work-card-desc">React/JavaScript/CSS</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <!-- Replace with your Pastel Puzzles image URL -->
+          <img src="assets/portfolioHWImages/pastelpuzzel.jpeg" alt="Pastel Puzzles">
+          <div class="p-4">
+            <h3 class="work-card-title">Pastel Puzzles</h3>
+            <p class="work-card-desc">MERN Stack</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <!-- Replace with your Run Buddy image URL -->
+          <img src="assets/portfolioHWImages/runbuddy.jpeg" alt="Run Buddy">
+          <div class="p-4">
+            <h3 class="work-card-title">Run Buddy</h3>
+            <p class="work-card-desc">HTML/CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact" class="container mx-auto py-12">
+    <div class="flex">
+      <div class="w-1/4">
+        <h2 class="section-title mb-4">Contact Me</h2>
+      </div>
+      <div class="w-3/4 space-y-4 contact-info">
+        <p>555.555.5555</p>
+        <p>lernantino@website.com</p>
+        <div class="contact-links flex space-x-4">
+          <a href="#">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Spotify</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

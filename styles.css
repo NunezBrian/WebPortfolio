@@ -1,0 +1,87 @@
+/* style.css */
+
+body {
+    background-color: #e2e8f0; /* Tailwind bg-gray-200 */
+  }
+  
+  .navbar {
+    background-color: #1a202c; /* Tailwind bg-gray-900 */
+    color: #ffffff; /* Tailwind text-white */
+    padding: 1rem 0; /* Tailwind py-4 */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Tailwind text-2xl */
+    font-weight: bold; /* Tailwind font-bold */
+    color: #4fd1c5; /* Tailwind text-teal-200 */
+  }
+  
+  .navbar-links a {
+    color: inherit;
+    margin-left: 1rem; /* Tailwind space-x-4 */
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    color: #4fd1c5; /* Tailwind hover:text-teal-200 */
+  }
+  
+  .header-image {
+    width: 100%; /* Tailwind w-full */
+    height: 16rem; /* Tailwind h-64 */
+    object-fit: cover; /* Tailwind object-cover */
+  }
+  
+  .subtitle {
+    background-color:  #504A4B; /* Tailwind bg-teal-200 */
+    color: #1a202c; /* Tailwind text-gray-900 */
+    font-size: 1.25rem; /* Tailwind text-xl */
+    padding: 0.5rem 1rem; /* Tailwind px-4 py-2 */
+  }
+  
+  .section-title {
+    font-size: 2.25rem; /* Tailwind text-4xl */
+    font-weight: bold; /* Tailwind font-bold */
+    color: #4a5568; /* Tailwind text-gray-700 */
+    margin-bottom: 1rem; /* Tailwind mb-4 */
+  }
+  
+  .section-content {
+    color: #4a5568; /* Tailwind text-gray-700 */
+  }
+  
+  .work-card {
+    background-color: #504A4B; /* Tailwind bg-white */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
+  }
+  
+  .work-card img {
+    width: 100%; /* Tailwind w-full */
+  }
+  
+  .work-card-title {
+    font-size: 1.25rem; /* Tailwind text-xl */
+    font-weight: bold; /* Tailwind font-bold */
+    color: #4fd1c5; /* Tailwind text-teal-600 */
+  }
+  
+  .work-card-desc {
+    color: #a0aec0; /* Tailwind text-gray-500 */
+  }
+  
+  .contact-info {
+    color: #4a5568; /* Tailwind text-gray-700 */
+  }
+  
+  .contact-links a {
+    color: #4fd1c5; /* Tailwind text-teal-600 */
+    text-decoration: none;
+  }
+  
+  .contact-links a:hover {
+    text-decoration: underline; /* Tailwind hover:underline */
+  }
+  
+  .work {
+    background-color: yellow;
+  }
